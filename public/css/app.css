@@ -92,7 +92,7 @@
 
 #search_input {
   height: 40px;
-  width: 50px;
+  width: 364px;
   font-size: 25px;
   text-indent: 42px;
   color: lightgray;
@@ -127,7 +127,7 @@
 
 #search_result {
   color: white;
-  /* max-width: 356px; */
+  /* max-width: 400px; */
   max-height: 415px;
   border-radius: 5px;
   overflow: auto;
