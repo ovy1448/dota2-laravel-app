@@ -18,6 +18,6 @@
     <th><img src="d2la-3.jpg"></th>
   </tr>
   <tr>
-    <th><img src="d2la-d.jpg"></th>
+    <th>Basic idea, what going for, minus the design.<img src="d2la-d.jpg"></th>
   </tr>
 </table>
