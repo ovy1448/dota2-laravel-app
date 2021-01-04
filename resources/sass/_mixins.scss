@@ -1,0 +1,27 @@
+@mixin gray_div {
+    background-color: rgba(32,32,32, .8);
+    border: 1px solid gray;
+    border-radius: 3px;    
+}
+
+@mixin team_logo {
+    position: relative;
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background-color: white;
+
+    border-radius: 50%;
+    border: 5px solid gray;
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        transform: translate(-50%,-50%);
+    }
+}

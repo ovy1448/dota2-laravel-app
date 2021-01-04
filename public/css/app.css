@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;
+
+0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#home_btn {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#home_btn:hover {
+  filter: brightness(120%);
+}
+
+#home_btn_div {
+  display: flex;
+  flex-direction: column;
+}
+
+#user_welcome {
+  box-sizing: border-box;
+  color: darkgray;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-left: 15px;
+  /* min-width: 167px; */
+  align-self: flex-start;
+}
+
+#sign_out_container {
+  display: flex;
+  flex-direction: column;
+  color: darkgray;
+  margin: 15px;
+  cursor: pointer;
+}
+
+#sign_out_container :focus {
+  outline: none;
+}
+
+#sign_out_container button {
+  background: transparent;
+  border: none;
+  color: gray;
+  font-size: 37px;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#sign_out_container span {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  font-size: 9px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* #user_login {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* #user_button {
+    background: transparent;
+    border: transparent;
+    color: rgb(144,144,144);
+    margin: 10px;
+    align-self: flex-end;
+    &:hover {
+        color: gray;
+    }
+    &:focus {
+        outline: none;
+        color: gray;
+    }
+} */
+
+#search_div {
+  flex: 1;
+  width: 100%;
+}
+
+#search_form {
+  justify-items: center;
+}
+
+#search_input {
+  height: 40px;
+  width: 50px;
+  font-size: 25px;
+  text-indent: 42px;
+  color: lightgray;
+  background-color: rgba(32, 32, 32, 0.8);
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+#search_input:focus {
+  outline: none;
+}
+
+#search_input::-moz-placeholder {
+  color: gray;
+}
+
+#search_input:-ms-input-placeholder {
+  color: gray;
+}
+
+#search_input::placeholder {
+  color: gray;
+}
+
+#search_button {
+  background: transparent;
+  border-color: transparent;
+  margin: 7px 0 0 3px;
+  position: absolute;
+  color: gray;
+}
+
+#search_result {
+  color: white;
+  /* max-width: 356px; */
+  max-height: 415px;
+  border-radius: 5px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#search_result::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: gray;
+}
+
+#search_result::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+#search_result::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
+.search_single_result {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: rgba(32, 32, 32, 0.9);
+  height: 80px;
+  margin: 1px;
+}
+
+.search_image_div {
+  position: relative;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid gray;
+  align-self: center;
+  margin: 0 5px 0 5px;
+  flex: 1;
+}
+
+.search_image_div img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+}
+
+.search_single_text {
+  display: inline;
+  flex: 3;
+  overflow: hidden;
+  align-self: center;
+  font-size: 30px;
+  color: darkgray;
+}
+
+.search_add_btn_div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search_add_btn_div button {
+  background: transparent;
+  border-color: transparent;
+  color: gray;
+}
+
+.search_add_btn_div button:focus {
+  outline: none;
+}
+
+.search_add_btn_div i:hover {
+  color: darkgreen;
+  transform: scale(1.2);
+}
+
+#sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .sidebar_image_div {
+    @include team_logo;
+} */
+
+/* .sidebar_image_single {
+    height: 80px;
+} */
+
+#sign_form_div {
+  background-color: rgba(32, 32, 32, 0.8);
+  border: 1px solid gray;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -67px;
+}
+
+#sign_form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  color: white;
+  align-items: flex-start;
+}
+
+#sign_input_group {
+  padding: 15px;
+  line-height: 20px;
+}
+
+#sign_input_group :focus {
+  outline: none;
+}
+
+#sign_input_group input {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  line-height: 10px;
+}
+
+#sign_input_group input :focus {
+  outline: none;
+  color: white;
+}
+
+#sign_input_group ::-moz-placeholder {
+  color: gray;
+}
+
+#sign_input_group :-ms-input-placeholder {
+  color: gray;
+}
+
+#sign_input_group ::placeholder {
+  color: gray;
+}
+
+#sign_form_remember {
+  padding-left: 15px;
+}
+
+#sign_form_remember input {
+  margin: 0;
+}
+
+#login_register_btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login_register_btns :focus {
+  outline: none;
+}
+
+#login_register_btns button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#login_register_btns a {
+  background-color: gray;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+#background {
+  background-image: url(/images/bg.jpg?359380a9c8618023a8f65810276b6f79);
+  background-size: cover;
+  transform: scale(1.03);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -50;
+  display: block;
+  filter: brightness(50%) blur(5px);
+}
+
+/* #top_body {
+    display: flex;
+    margin: 8px;
+}
+ */
+
+#right {
+  flex: 1;
+}
+
+/* #upcoming_matches{
+    color: white;
+} */
+
+#home_page {
+  padding-top: 20px;
+  display: flex;
+}
+
